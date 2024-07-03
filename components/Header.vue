@@ -2,7 +2,11 @@
 
 <template>
     <header>
-        <img src="/logo.png" alt="Logo" />
+        <img src="assets/logo.png" alt="Logo" />
+        <nav>
+            <NuxtLink  to="/">Home</NuxtLink >
+            <NuxtLink  to="/about">About</NuxtLink >
+        </nav>
     </header>
 </template>
 
