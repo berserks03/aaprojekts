@@ -2,9 +2,7 @@
 
 <template>
     <div>
-        <Header />
         <DataTable />
-        <Footer />
     </div>
 </template>
 

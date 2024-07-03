@@ -2,7 +2,9 @@
 
 <template>
     <div>
-        <h1>Informācija par mani</h1>
+        <Header />
+        <slot />
+        <Footer />
     </div>
 </template>
 
