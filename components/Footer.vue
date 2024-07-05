@@ -1,9 +1,19 @@
 <script setup lang="ts"></script>
 
 <template>
-    <footer>
-        <p>Version 1.0</p>
+    <footer class="Footer">
+        <p class="Footer__Version">Version 1.0.0</p>
     </footer>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss">
+.Footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+
+    &__Version {
+        font-size: 14px;
+    }
+}
+</style>
